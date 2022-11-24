@@ -455,11 +455,14 @@ Headers:		'Montserrat', sans-serif;
 }
 
 /* 2. Elements Styling */
+.default-cursor {cursor: default;}
 body {
   color: #1f1f1f;
   font-size: 13px;
   font-family: 'Montserrat', sans-serif;
   position: relative;
+  cursor: default;
+  
 }
 body.has-loading-screen .pace {
   visibility: visible;
@@ -1305,8 +1308,6 @@ ul.check-marks li:before {
 .big-gallery .slide img {
   width: 95%;
 }
-.grab {cursor: -webkit-grab; cursor: grab;}
-
 
 .blog-post {
   border-bottom: 1px solid #f6f6f4;
